@@ -1,0 +1,1 @@
+ez egy vizsgaremek frontend kódja
