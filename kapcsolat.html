@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/kapcsolat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Kapcsolat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Kapcsolat</h1>
+        </div>
+        
+
+        <div class="info">
+            <div class="contact-item">
+                <i class="fa-solid fa-business-time"></i>
+                <p>Nyitvatartás:<br>H-P: 8-21<br>Sz: 9-19<br>V: 9-19</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-house"></i>
+                <p>Cím:<br>4029 Debrecen,<br>Burgundia utca 1-2</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <p>Telefon:<br>+36-20 340 9320</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Email:<br>n&rnails@gmail.com</p>
+            </div>
+        </div>
+
+        <form class="form">
+            <label for="name">Név</label>
+            <input type="text" id="name" name="name" placeholder="Név...">
+
+            <label for="phone">Telefonszám</label>
+            <input type="text" id="phone" name="phone" placeholder="Telefonszám...">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail...">
+
+            <label for="message">Üzenet</label>
+            <textarea id="message" name="message" placeholder="Üzeneted..."></textarea>
+
+            <div>
+                <input type="checkbox" id="privacy" name="privacy">
+                <label for="privacy">Elfogadom az adatvédelmi feltételeket.</label>
+            </div>
+
+            <button type="submit">Elküldöm</button>
+        </form>
+       
+
+</body>
+<script src=".js/contact.js"></script>
+</html>

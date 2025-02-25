@@ -1,0 +1,141 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/kepek/hatter14.jpg'); /*Itt cseréld ki az elérési útra */
+            background-size: cover; /* A kép kitölti az egész hátteret */
+            background-position: center; /* A kép középre lesz igazítva */
+            background-repeat: no-repeat; /* Nem ismétlődik a kép */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff8f0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #6b4e41;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #e5d4c3;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            text-align: center; /* A szöveg és az ikon középre igazítása */
+            display: flex;
+            flex-direction: column; /* Vertikális elrendezés */
+            align-items: center; /* Ikon és szöveg középre igazítása */
+            gap: 5px; /* Térköz az ikon és a szöveg között */
+        }
+        
+        .info div i {
+            font-size: 24px; /* Ikon mérete */
+            color: #6b4e41; /* Ikon színe */
+            margin-bottom: 5px; /* Térköz az ikon és a szöveg között (opcionális) */
+        }
+
+        .info div p {
+            margin: 5px 0 0;
+            color: #6b4e41;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #6b4e41;
+        }
+
+        .form input, .form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #d1b9a9;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .form textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        .form input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .form button {
+            padding: 10px 20px;
+            background-color: #6b4e41;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background-color: #5a3e37;
+        }
+
+        footer {
+            background-color: #d3bfb4;
+            text-align: center;
+            padding: 14px 10px;
+            margin-top: 100px;
+            border-top: none; /* Ha a lábléc okoz egy felső vonalat */
+        }
+        
+
+        .footer a {
+            color: #6b4e41;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+          }
+          
+          .contact-item img {
+            width: 24px; /* Ikon mérete */
+            height: 24px;
+          }
+          
+          .contact-item span {
+            font-size: 16px;
+            color: #000; /* Szöveg színe */
+          }
